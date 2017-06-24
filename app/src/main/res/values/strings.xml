@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MVP</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="news_item1">国内</string>
+    <string name="news_item2">互联网</string>
+    <string name="news_item3">体育</string>
+    <string name="news_item4">电影</string>
+    <string name="news_item5">财经</string>
+    <string name="news_item6">国际</string>
+</resources>

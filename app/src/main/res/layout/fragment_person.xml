@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/relativePerson1"
+        android:layout_width="match_parent"
+        android:layout_height="198dp"
+        android:background="@color/colorPrimary">
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/viewDivider5"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#dadada"/>
+
+    <LinearLayout
+        android:id="@+id/linearSetting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/relativePerson1"
+        android:background="#fff">
+
+        <TextView
+            android:layout_weight="1"
+            android:text="清除缓存"
+            android:paddingLeft="38dp"
+            android:gravity="center_vertical|left"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:id="@+id/tvSettingClear"
+            android:layout_width="148dp"
+            android:layout_height="48dp"
+            android:gravity="right|center"
+            android:paddingRight="18dp"
+            android:text="3.15MB"/>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="48dp"
+            android:src="@drawable/arrow_right_dadada" />
+    </LinearLayout>
+
+
+    <View
+        android:id="@+id/viewDivider7"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/linearSetting"
+        android:background="#dadada"/>
+
+    <LinearLayout
+        android:id="@+id/linearFeedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/viewDivider7"
+        android:background="#fff">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical|left"
+            android:paddingLeft="38dp"
+            android:text="版本更新" />
+
+        <ImageView
+            android:id="@+id/ivPersonFeedback"
+            android:layout_width="30dp"
+            android:layout_height="48dp"
+            android:src="@drawable/arrow_right_dadada" />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

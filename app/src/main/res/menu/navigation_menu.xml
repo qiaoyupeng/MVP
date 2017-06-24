@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_news"
+        android:icon="@mipmap/bottom1"
+        android:title="新闻"
+        />
+
+    <item
+        android:id="@+id/navigation_fun"
+        android:icon="@mipmap/bottom_fun"
+        android:title="美女"/>
+
+    <item
+        android:id="@+id/navigation_weather"
+        android:icon="@mipmap/bottom_star"
+        android:title="天气"/>
+
+    <item
+        android:id="@+id/navigation_person"
+        android:icon="@mipmap/bottom_person"
+        android:title="我的"/>
+
+
+
+</menu>
